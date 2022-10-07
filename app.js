@@ -42,7 +42,6 @@ const task4 = new Item({
 });
 
 const defaultItems = [task1, task2, task3, task4];
-
 const listSchema = new mongoose.Schema({
   name: String,
   items: [itemSchema]
